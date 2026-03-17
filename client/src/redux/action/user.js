@@ -179,7 +179,6 @@ export const createClient = (clientData, setOpen) => async (dispatch) => {
     dispatch(start());
     const { data } = await api.createClient(clientData);
     dispatch(createClientReducer(data.result));
-    navigate("/clients");
     setOpen(false);
     dispatch(end());
   } catch (err) {
