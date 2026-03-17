@@ -5,6 +5,27 @@
 3. Add client button and modal.
 4. Add client edit feature.
 
+## Features Implemented
+
+1. **Timezone Support**
+   - Added timezone display next to the time field (e.g., `HH:MM (UTC+X)`).
+     
+2. **Advanced Field Validation**
+   - Implemented robust input validation based on industry best practices used in real-world projects.
+   - Added checks for data integrity, required fields, and specific formats.
+   - *Note: This can be simplified or extended based on the project’s specific requirements.*
+     
+3. **Client Creation Flow**
+   - Implemented a "Create Client" button and functionality.
+   - Designed the creation flow to match the existing system architecture for a seamless user experience.
+
+4. **Client Editing Module**
+   - Fully implemented the client editing feature. 
+   - Since specific requirements for this module were not provided, the implementation follows the existing project patterns and logic to ensure consistency.
+
+## Questions & Considerations
+* **Permissions & Access Control:** Are there specific roles (e.g., Admin only) that should have access to the "Create" and "Edit" features, or should they be available to all authorized users?
+
 ## Required:
  Node.js 18+
 
@@ -115,6 +136,5 @@ Define the necessary environment variables for both the frontend and backend. Sa
    - Gain insights into sales performance, customer behavior, and market trends.
 
 ---
-
-
+* **Permissions & Access Control:** Are there specific roles (e.g., Admin only) that should have access to the "Create" and "Edit" features, or should they be available to all authorized users?
 
